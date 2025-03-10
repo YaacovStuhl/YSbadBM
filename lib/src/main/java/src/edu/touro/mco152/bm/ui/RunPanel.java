@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.touro.mco152.bm.ui;
+package src.edu.touro.mco152.bm.ui;
 
 import edu.touro.mco152.bm.persist.DiskRun;
 

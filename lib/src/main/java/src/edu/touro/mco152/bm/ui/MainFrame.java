@@ -1,7 +1,7 @@
-package edu.touro.mco152.bm.ui;
+package src.edu.touro.mco152.bm.ui;
 
-import edu.touro.mco152.bm.App;
-import edu.touro.mco152.bm.Util;
+import src.edu.touro.mco152.bm.App;
+import src.edu.touro.mco152.bm.Util;
 import edu.touro.mco152.bm.persist.DiskRun;
 import edu.touro.mco152.bm.persist.DiskRun.BlockSequence;
 import org.jfree.chart.ChartPanel;
@@ -14,7 +14,7 @@ import java.text.DecimalFormat;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static edu.touro.mco152.bm.App.dataDir;
+import static src.edu.touro.mco152.bm.App.dataDir;
 import static java.awt.Font.PLAIN;
 
 /**
@@ -76,7 +76,7 @@ public final class MainFrame extends javax.swing.JFrame {
     private javax.swing.JLabel rMinLabel;
     private javax.swing.JButton resetButton;
     private javax.swing.JMenuItem resetSequenceMenuItem;
-    private edu.touro.mco152.bm.ui.RunPanel runPanel;
+    private src.edu.touro.mco152.bm.ui.RunPanel runPanel;
     private javax.swing.JCheckBoxMenuItem showMaxMinCheckBoxMenuItem;
     private javax.swing.JButton startButton;
     private javax.swing.JTabbedPane tabbedPane;
@@ -188,7 +188,7 @@ public final class MainFrame extends javax.swing.JFrame {
         rMaxLabel = new javax.swing.JLabel();
         rAvgLabel = new javax.swing.JLabel();
         tabbedPane = new javax.swing.JTabbedPane();
-        runPanel = new edu.touro.mco152.bm.ui.RunPanel();
+        runPanel = new src.edu.touro.mco152.bm.ui.RunPanel();
         eventScrollPane = new javax.swing.JScrollPane();
         msgTextArea = new javax.swing.JTextArea();
         locationPanel = new javax.swing.JPanel();
